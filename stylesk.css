@@ -1,0 +1,109 @@
+body
+{
+background-color: #000000;
+font-family: 'Amarante';
+}
+h1
+{
+background-color: #7fffd4;
+}
+h2
+{
+    background-color: #663399;
+    width: 70%;
+    color: #f0f8ff;
+}
+#box div h2
+{
+    background-color: #00ffff;
+    color: #000000;
+}
+#box div h2:hover
+{
+    color: #ffffff;
+    background-color: #00008b;
+}
+#box img:hover
+{
+position: relative;
+top: -6px;
+border: 4px solid #ffffff;
+}
+#box div:hover
+{
+background-color: #ffff00;
+padding:15px;
+
+}
+h2:hover
+{
+    background-color: #064d4d;
+}
+h1:hover
+{
+    background-color: #0000ff;
+    color: #ffffff;
+    font-size: 35px;
+}
+#box div p:hover
+{
+    color:#8f681e;
+}
+
+#box
+{
+    grid-template-columns: repeat(11,1fr);
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: minmax(3,auto);
+    grid-gap: 30px;
+    background-color: #000000;
+}
+#box div
+{
+    background-color: #adff2f;
+}
+.one
+{
+    grid-column: 1/7;
+}
+.two
+{
+    grid-column: 7/12;
+}
+.two img
+{
+    width: 40%;
+}
+.four img
+{
+    width: 40%;
+}
+.one img
+{
+    width:25%;
+}
+.three
+{
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+.four
+{
+    grid-column: 4/8;
+    grid-row: 2/3;
+}
+.five
+{
+    grid-column: 8/12;
+    grid-row: 2/4;
+}
+.six
+{
+grid-column: 1/8;
+grid-row: 3/3;
+}
+.five img
+{
+    width: 75%;
+}

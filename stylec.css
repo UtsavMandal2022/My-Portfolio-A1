@@ -1,0 +1,104 @@
+body{
+    background-image: url(images/cbg.jpg);
+    font-family: "Sofia", sans-serif;
+      
+}
+h1
+{
+    display: inline-block;
+    text-align: center;
+    font-size: 45px;
+    border: 10px solid #42047d;
+    padding: 6px 12px;
+    border-radius: 50px;
+    background-color: #f5deb3;
+    font-weight: bolder;
+    font-style: oblique;
+    color: #0c062e;
+    text-decoration: none;
+    position: relative;
+    left: 40%;
+    top: 35px;
+}
+h1:hover
+{
+    background-color: #ffb67a;
+}
+form input
+{
+    border: 3px solid #42047d;
+    border-radius: 15px;
+    padding: 5px;
+    position: relative;
+    left: 30%;
+    top: 85px;
+}
+form textarea
+{
+    border: 3px solid #42047d;
+    border-radius: 15px;
+    padding: 5px; 
+    position: relative;
+    left: 30%;
+    top: 85px; 
+    width: 40%;
+}
+form input:focus
+{
+    border:  3px dashed blue;
+}
+form input::placeholder
+{
+    color: blueviolet;
+}
+form input:focus::placeholder
+{
+    color: transparent;
+}
+form textarea::placeholder
+{
+    color: blueviolet;
+}
+form textarea:focus::placeholder
+{
+    color: transparent;
+}
+form textarea:focus
+{
+    border: dashed 4px blue;
+}
+form label
+{
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-radius: 2px;
+    padding: 3px;
+    border: 1px solid black;
+color: blueviolet;
+position: relative;
+left: 30%;
+top: 85px;
+}
+form input[type=submit]
+{
+    font-weight: bolder;
+    color: white;
+    background-color: #ff6c3b;
+padding: 10px;
+font-size: large;
+position: relative;
+left: 47%;
+top: 100px;
+}
+form input[type=submit]:hover
+{
+    background-color: #5252ed;
+}
+form input[type=text]
+{
+    width: 25%;
+}
+form input[type=email]
+{
+    width: 25%;
+}

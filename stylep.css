@@ -1,0 +1,113 @@
+body
+{
+    background-image: url(images/prbg.jpg);
+    font-family: "Audiowide", sans-serif;
+}
+h1
+{
+color: whitesmoke;
+background-color: #4040ff;
+text-align: center;
+font-size: 40px;
+border: 20px double lightblue;
+width: 40%;
+position:relative;
+left: 30%;
+}
+h2
+{
+    background-color: aqua;
+    border: 3px solid blue;
+    display: inline-block;
+    position: relative;
+left: 31%;
+top: -28px;
+font-size: 18px;
+}
+h2:hover
+{
+        background-color: aquamarine;
+}
+.flex-container
+{
+    display: flex;
+    background-image: url(images/prbg.jpg);
+    flex-wrap: wrap;
+}
+.item
+{
+    min-width:100px;
+    height: 300px;
+    margin: 10px;
+    flex-grow: 1;
+    color: white;
+    background-color: orange;
+    padding: 8px;
+    border: 10px solid red;
+    align-items: center;
+    flex-basis: 25%;
+}
+.item p
+{
+font-weight: bold;
+text-align: center;
+font-size: 18px;
+}
+.item input
+{
+    font-style: oblique;
+    font-weight: bolder;
+    border: 4px double black;
+    position: relative;
+    left: 40%;
+    width: 100px;
+    background-color: #d7c6a8;
+}
+.item img
+{
+    position: relative;
+    left: 25%;
+}
+.item img:hover
+{
+    position: relative;
+    top: -4px;
+    border: 1px solid black;
+}
+.item input:hover
+{
+    border: 6px double #ff0000;
+    padding: 1px;
+}
+.item p:hover
+{
+    color: #ff0000;
+    text-decoration: underline;
+}
+.item:hover
+{
+position: relative;
+top: -10px;
+}
+.item input:focus
+{
+background-color: blueviolet;
+color: white;
+}
+.flex-container2
+{
+    display: flex;
+    background-image: url(images/prbg.jpg);
+    flex-wrap: wrap;
+}
+.cc img
+{
+width: 50%;
+}
+.ht img
+{
+    width: 70%;
+    left: 15%;
+}
+.cal img
+{left:18%;}

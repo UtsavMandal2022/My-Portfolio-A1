@@ -1,0 +1,126 @@
+nav h1
+{
+    color: aliceblue;
+    border: 8px solid white;
+    padding: 6px 2px;
+    display:  inline-block;
+border-radius:40px;
+background-color: #6363d8;
+}
+.Backgr
+{
+    position: relative;
+    top: 0;
+}
+.Backgr img
+{
+width: 100%;
+}
+.Backgr h2
+{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-align: center;
+    font-size: 35px;
+    
+}
+nav
+{
+    background-color: aqua;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 5000px;
+    margin: 0 auto;
+}
+nav li{
+    width: 30%;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav li a{
+    text-decoration: none;
+    color: #741576;
+}
+nav li a.project
+{
+    color: #e90808;
+border: 3px red;
+font-style: oblique;
+
+}
+nav li a.skills
+{
+    color: purple;
+    font-style: oblique;
+
+}
+nav li a.contact
+{
+    color: #000000;
+    font-style: oblique;
+
+    
+}
+nav li a:hover
+{text-decoration: none;
+  background-color: white;
+    padding: 6px 12px;    
+    position: relative;
+    top: -4px;
+}
+
+.Backgr p{
+    text-align: left;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+.Backgr a{
+   background-color: #d40c0c;
+   padding: 5px;
+   font-style: unset;
+   font-weight: bolder;
+color: azure;
+text-decoration: none;
+text-align: center;
+font-size: 22px;
+position: absolute;
+    top: 75%;
+    left: 14%;
+}
+.Backgr a:hover
+{
+    background-color: white;
+    color: red;
+    
+}
+.Backgr .man
+{
+    position: absolute;
+    top: 23%;
+    left: 55%;
+    width: 30%;
+    border-bottom: 4px double black;
+}
+.Backgr p:hover
+{
+    color:blueviolet;
+}
+.Backgr h2:hover
+{
+font-size: 40px;
+}
+.Backgr .man:hover
+{
+  padding: 4px;
+}
